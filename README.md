@@ -6,11 +6,8 @@ It is proposed to anlyze, design and create a software application that allows t
 ## Members
 * **Product Owner:** María José Jadnat Pérez Alba
 * **Srum Master:** Juan Alberto Hernandez
-* dasmdñ,anda sm.{d,ad,{a
 * **Architect:** Omaira Dayana Velásquez Mantilla
 * **Developer:** Daniel Felipe Ramirez Ferrín
 * **Quality:** Jofay Zhan Segura
 
 > Keep in mind that we all play a role in software development :)
-> adnsalmdnambdkandma.
-> {d.-a.d amld añd,a-s
