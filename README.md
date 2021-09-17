@@ -4,9 +4,9 @@
 It is proposed to anlyze, design and create a software application that allows to control the physical and virtual sales of a manufacturing company and follow up
 
 ## Members
-* **Product Owner:** María José Jadnat Pérez Alba
+* **Product Owner:** Omaira Dayana Velasquez Mantilla 
 * **Srum Master:** Juan Alberto Hernandez
-* **Architect:** Omaira Dayana Velásquez Mantilla
+* **Architect:** María José Jadnat Pérez Alba
 * **Developer:** Daniel Felipe Ramirez Ferrín
 * **Quality:** Jofay Zhan Segura
 
