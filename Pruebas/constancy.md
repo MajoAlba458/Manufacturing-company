@@ -5,3 +5,4 @@
 |--|--|--|
 |Jaghomix|Se interactua con el repositorio 😉|2021-09-15-20:55|
 |Dayana|Se interactua |2021-09-17-08:18|
+|Daniel|Se entra al repositorio desde visua|2021-09-18-2:42|
