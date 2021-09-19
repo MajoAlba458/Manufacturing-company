@@ -5,7 +5,7 @@ It is proposed to anlyze, design and create a software application that allows t
 
 ## Members
 * **Product Owner:** Omaira Dayana Velasquez Mantilla 
-* **Srum Master:** Juan Alberto Hernandez
+* **Scrum Master:** Juan Alberto Hernandez
 * **Architect:** María José Jadnat Pérez Alba
 * **Developer:** Daniel Felipe Ramirez Ferrín
 * **Quality:** Jofay Zhan Segura
