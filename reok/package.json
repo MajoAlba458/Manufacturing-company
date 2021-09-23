@@ -1,0 +1,19 @@
+{
+  "name": "reok",
+  "version": "1.0.0",
+  "description": "Manufacturing company for recyclable products",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "FATNAG",
+    "Manufacturing company",
+    "web design"
+  ],
+  "author": "Jofay-zs",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}

@@ -1,0 +1,25 @@
+.navbar {
+  width: 100%;
+}
+
+.menu .navbar-brand img {
+  border-radius: 10px;
+}
+.menu #navbarNav {
+  justify-content: end;
+}
+.menu li {
+  padding: 0 1rem;
+}
+.menu li a {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.menu li a:hover {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #fff;
+  text-shadow: 0 0 2px #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
