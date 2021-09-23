@@ -1,6 +1,30 @@
 @use '../config' as *;
 
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    transition: 1s;
+    z-index: 100000;
+    background-color: $white;
 
+    &.sticky{
+        background: $medium-dark-blue;
+        padding: 0.3rem;
+        color: $white;
+
+        .btn-bars{
+            color: $white;
+            &:hover{
+                text-shadow: 0 0 2px $white;
+            }
+        }
+    }
+}
 .btn-bars{
     border: none;
     font-size: 2rem;
