@@ -1,5 +1,9 @@
 @use '../config' as *;
 
+.goTop{
+    display: none;
+}
+
 .navbar{
     position: fixed;
     top: 0;
@@ -16,6 +20,21 @@
         background: $medium-dark-blue;
         padding: 0.3rem;
         color: $white;
+
+        .goTop{
+            display:inline-block;
+            transition: display 1000ms;
+            position: fixed;
+            top: 5rem;
+            right: 20px;
+            font-size: 2rem;
+            color: $medium-dark-blue;
+
+            &:hover{
+                color: $medium-light-blue;
+                text-shadow: 0 0 2px $medium-light-blue;
+            }
+        }
 
         .btn-bars{
             color: $white;

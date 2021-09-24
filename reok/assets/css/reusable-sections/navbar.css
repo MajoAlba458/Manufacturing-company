@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+.goTop {
+  display: none;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -15,6 +19,19 @@
   background: #0077B6;
   padding: 0.3rem;
   color: #fff;
+}
+.navbar.sticky .goTop {
+  display: inline-block;
+  transition: display 1000ms;
+  position: fixed;
+  top: 5rem;
+  right: 20px;
+  font-size: 2rem;
+  color: #0077B6;
+}
+.navbar.sticky .goTop:hover {
+  color: #00B4D8;
+  text-shadow: 0 0 2px #00B4D8;
 }
 .navbar.sticky .btn-bars {
   color: #fff;
@@ -143,10 +160,4 @@
   transform: scale(1.18);
 }
 
-.prueba {
-  background: #fff;
-  height: 100rem;
-  width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=navbar.css.map */
