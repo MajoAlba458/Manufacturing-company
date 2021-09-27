@@ -1,4 +1,5 @@
 @use '../config' as *;
+@use '../components/mixins' as *;
 
 .goTop{
     display: none;
@@ -17,7 +18,7 @@
     background-color: $white;
 
     &.sticky{
-        background: $medium-dark-blue;
+        @include gradient;
         padding: 0.3rem;
         color: $white;
 
@@ -91,8 +92,8 @@
 }
 
 .sidebar{
+    @include gradient;
     font-family: $default;
-    background-color: $medium-dark-blue;
     transition-duration: 1000ms;
     transition-property: all;
 
@@ -158,7 +159,7 @@
 
             &:hover{
                 background-color: $white;
-                color: $medium-dark-blue;
+                color: $black;
                 border-radius: 3rem 0 0 3rem;
                 transform: scale(1.18);
 
@@ -175,7 +176,7 @@
 
         #home{
             background-color: $white;
-            color: $medium-dark-blue;
+            color: $black;
             border-radius: 3rem 0 0 3rem;
             transform: scale(1.18);
         }

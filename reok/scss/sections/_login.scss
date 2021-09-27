@@ -1,0 +1,24 @@
+@use '../config' as *;
+@use '../components/mixins' as *;
+@use '../components/forms' as *;
+
+.form{
+    @include gradient;
+    font-family: $popins;
+    font-weight: 500;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+#login-container{
+    &.active{
+        display: none;
+    }
+}
+
+#input-login{
+    max-height: 3.7rem;
+}
