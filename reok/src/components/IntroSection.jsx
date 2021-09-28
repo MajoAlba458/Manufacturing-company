@@ -1,4 +1,4 @@
-import 'styles/css/reusable-sections/intro-section.css';
+import 'assets/css/intro-section.css';
 
 const IntroSection = () => {
   return (

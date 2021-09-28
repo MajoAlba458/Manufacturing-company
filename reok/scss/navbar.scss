@@ -1,5 +1,5 @@
-@use '../config' as *;
-@use '../components/mixins' as *;
+@use 'config' as *;
+@use 'components/mixins' as *;
 
 .goTop{
     display: none;

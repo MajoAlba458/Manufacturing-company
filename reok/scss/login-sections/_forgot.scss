@@ -1,5 +1,5 @@
-@use '../config' as *;
-@use '../components/mixins' as *;
+@use 'src/scss/config' as *;
+@use 'src/scss/components/mixins' as *;
 @use '../components/forms' as *;
 
 #forgot-container{

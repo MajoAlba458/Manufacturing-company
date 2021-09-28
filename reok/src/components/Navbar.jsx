@@ -1,6 +1,6 @@
 import profileImage from '../media/images/profile-image-01.png';
 import logo from '../media/images/recycle-icon-01.png'
-import "styles/css/reusable-sections/navbar.css";
+import 'assets/css/navbar.css';
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
