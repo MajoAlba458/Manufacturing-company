@@ -5,9 +5,7 @@ import IntroSection from "components/IntroSection";
 function Index() {
   return (
     <div className="Index">
-      <Navbar />
       <IntroSection />
-      <Footer />
     </div>
   );
 }
