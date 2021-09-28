@@ -8,10 +8,7 @@ const Footer = () => {
           <div class="row footer-box-left text-center">
             <h4>About us</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur excepturi veritatis quod hic vero obcaecati rem,
-              officiis sequi vitae ea quos blanditiis distinctio, dolorum totam
-              suscipit error, necessitatibus tempore nemo!
+              Reok es una empresa ficticia de manufaturacion enfocada en productos reciclados. Esta empresa fue creada por FATNAG un equipo de desarrolladores, con el fin de implementar todos los conocimientos que hemos logrado ir obteniendo a lo largo de nuestra ruta.
             </p>
           </div>
           <div class="row footer-box-right text-start">
