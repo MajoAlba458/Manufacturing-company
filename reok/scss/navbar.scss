@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    position:static;
+    position:sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -38,7 +38,7 @@
         }
 
         .btn-bars{
-            color: $white;
+            color: $black;
             &:hover{
                 text-shadow: 0 0 2px $white;
             }
@@ -50,6 +50,7 @@
     font-size: 2rem;
     background-color: transparent;
     margin: 0 1rem;
+    color: $black;
 
     &:hover{
         color: $gray-700;

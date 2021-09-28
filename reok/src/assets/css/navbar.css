@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  position: static;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -35,7 +35,7 @@
   text-shadow: 0 0 2px #00B4D8;
 }
 .navbar.sticky .btn-bars {
-  color: #fff;
+  color: #000;
 }
 .navbar.sticky .btn-bars:hover {
   text-shadow: 0 0 2px #fff;
@@ -46,6 +46,7 @@
   font-size: 2rem;
   background-color: transparent;
   margin: 0 1rem;
+  color: #000;
 }
 .btn-bars:hover {
   color: #495057;

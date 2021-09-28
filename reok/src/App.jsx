@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Layout>
-          <Switch>
-            <Route path="/Login">
+        <Switch>
+          <Route path="/Login">
               <Login />
             </Route>
+            <Layout>
             <Route path="/Products">
               <Products />
             </Route>
@@ -31,8 +31,8 @@ function App() {
             <Route path="/">
               <Index />
             </Route>
-          </Switch>
-        </Layout>
+            </Layout>
+        </Switch>
       </Router>
     </div>
   );

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav class="navbar shadow" id="navbar">
       <button
-        class="btn-bars"
+        class="btn-bars btn"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar"
