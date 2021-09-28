@@ -1,3 +1,4 @@
+import Home from "pages/Home";
 import Login from "pages/Login";
 import Products from "pages/Products";
 import Sales from "pages/Sales";
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path="/Vendors">
               <Vendors />
+            </Route>
+            <Route path="/Home">
+              <Home />
             </Route>
             </Layout>
         </Switch>

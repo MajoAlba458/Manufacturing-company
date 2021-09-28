@@ -55,7 +55,7 @@ const Navbar = () => {
         <div class="offcanvas-body sidebar-menu">
           <ul>
             <li>
-              <Link to='/index' id="home">
+              <Link to='/Home' id="home">
                 <i class="fas fa-home"></i>
                 <span>Home</span>
               </Link>
