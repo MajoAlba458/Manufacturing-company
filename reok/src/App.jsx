@@ -1,4 +1,3 @@
-import Index from "pages/Index";
 import Login from "pages/Login";
 import Products from "pages/Products";
 import Sales from "pages/Sales";
@@ -27,9 +26,6 @@ function App() {
             </Route>
             <Route path="/Vendors">
               <Vendors />
-            </Route>
-            <Route path="/">
-              <Index />
             </Route>
             </Layout>
         </Switch>
