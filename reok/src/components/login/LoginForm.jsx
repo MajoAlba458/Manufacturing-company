@@ -1,5 +1,3 @@
-// import LeftContainerLoginForm from "./LoginComponents";
-// import HeaderLoginForm from 'LoginComponents';
 import LoginImage from 'media/images/login-image-02.png';
 import HeaderLoginForm from './HeaderLoginForm';
 import LeftContainerLoginForm from './LeftContainerLoginForm';
@@ -19,6 +17,9 @@ const RightContainerLoginForm = () => {
     <div class="row form-container__right">
       <form action="../index.html" class="d-grid gap-2">
         <h2 class="text-center">Login</h2>
+        <p>
+          If you already have an account enter your email and enjoy our app.
+        </p>
         <div class="input-box">
           <div class="input-box__input">
             <i class="fas fa-envelope"></i>

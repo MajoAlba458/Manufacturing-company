@@ -15,13 +15,25 @@
   margin: 0;
 }
 .footer-box-left {
-  width: 40%;
+  width: 50%;
 }
 .footer-box-right {
   width: 40%;
 }
 .footer-box-right ul {
   list-style: none;
+}
+@media screen and (max-width: 550px) {
+  .footer-box {
+    display: block;
+  }
+  .footer-box-left {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .footer-box-right {
+    width: 100%;
+  }
 }
 
 .copyright {
