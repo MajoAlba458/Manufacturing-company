@@ -50,6 +50,7 @@ const RightContainerSignupForm = () => {
               class="username"
               name="username"
               required="true"
+              minlength="5"
             />
           </div>
         </div>
@@ -57,7 +58,7 @@ const RightContainerSignupForm = () => {
           <div class="input-box__input">
             <i class="fas fa-envelope"></i>
             <label for="mail">Email</label>
-            <input type="text" class="mail" name="mail" required="true" />
+            <input type="email" class="email" name="email" required="true" />
           </div>
         </div>
         <div class="input-box">
@@ -69,6 +70,7 @@ const RightContainerSignupForm = () => {
               class="password"
               name="password"
               required="true"
+              minlength="7"
             />
           </div>
         </div>
@@ -76,7 +78,7 @@ const RightContainerSignupForm = () => {
           <div class="input-box__input">
             <i class="fas fa-scroll"></i>
             <label for="rol">Rol</label>
-            <input type="text" class="rol" name="rol" required="true" />
+            <input type="text" class="rol" name="rol" required="true"/>
           </div>
         </div>
         <input
