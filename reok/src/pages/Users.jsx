@@ -82,7 +82,21 @@ function Users() {
             />
           </div>
         </form>
-    </section>
+      </section>
+    
+
+       {/*  <div>
+
+          <button onclick="changePermission()">Roles de usuario</button>
+          <li id="select" onclick="selectOne()" style="display: none;">Usuario de consulta</li>
+          <li id="add" onclick="addOne()" style="display: none;">Agregar usuario</li>
+          <li id="delete" onclick="deleteOne()" style="display: none;">Eliminar usuarios</li>
+          <li id="update" onclick="updateOne()" style="display: none;">Modificar usuarios</li>
+          <li id="login" onclick="login()" style="display: none;">Inicio de sesión de usuario</li>
+          
+        </div>
+     */}
+    
     <Footer />
     </div>
   );
