@@ -3,11 +3,11 @@ import logo from '../media/images/recycle-icon-01.png'
 import 'assets/css/navbar.css';
 import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({title}) => {
   return (
     <nav class="navbar shadow" id="navbar">
       <button
-        class="btn-bars btn"
+        class="btn-bars"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar"
@@ -18,7 +18,7 @@ const Navbar = () => {
       <a href="#section" onclick="toggleMenu();" class="goTop">
         <i class="fas fa-arrow-alt-circle-up"></i>
       </a>
-      <h2>Home</h2>
+      <h2>{title}</h2>
       <div class="page-title">
         <div class="image-profile">
           <Link to='/Login'>

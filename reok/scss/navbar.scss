@@ -57,6 +57,11 @@
         transform: scale(1.05);
         transition-duration: 500ms;
         transition-property: all;
+        border: none;
+        box-decoration-break: none;
+        text-decoration: none;
+        text-decoration-style: none;
+        background: transparent;
     }
 }
 

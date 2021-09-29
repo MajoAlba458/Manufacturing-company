@@ -1,11 +1,13 @@
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
-import IntroSection from "components/IntroSection";
+import Showcase from "components/index/Showcase";
+import 'assets/css/index.css';
+
 const Index = () => {
     return (
         <div className='Index'>
-            <Navbar />
-            <IntroSection />
+            <Navbar title={'Home'}/>
+            <Showcase/>
             <Footer />
         </div>
     )
