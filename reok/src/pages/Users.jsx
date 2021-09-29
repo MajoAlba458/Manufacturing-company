@@ -1,9 +1,14 @@
+import Navbar from "components/Navbar";
+import Footer from "components/Footer";
+
 function Users() {
   return (
     <div className="Users">
-      <section id="section" class="intro-section">
+      <Navbar/>
+      
+      <section id="section" class="intro-section" >
         <h2>Gestion de Usuario</h2>
-        <form action="#" method="post" name="gestion_usuario">
+        <form action="#" method="post" name="gestion_usuario" class="form-usuario">
           <label for="us_nombre">Nombre</label>
           <div class="inputs">
             <input
@@ -77,7 +82,8 @@ function Users() {
             />
           </div>
         </form>
-      </section>
+    </section>
+    <Footer />
     </div>
   );
 }
