@@ -1,9 +1,14 @@
+import Navbar from "components/Navbar";
+import Footer from "components/Footer";
+
 function Users() {
   return (
     <div className="Users">
-      <section id="section" class="intro-section">
+      <Navbar/>
+      
+      <section id="section" class="intro-section" >
         <h2>Gestion de Usuario</h2>
-        <form action="#" method="post" name="gestion_usuario">
+        <form action="#" method="post" name="gestion_usuario" class="form-usuario">
           <label for="us_nombre">Nombre</label>
           <div class="inputs">
             <input
@@ -78,6 +83,21 @@ function Users() {
           </div>
         </form>
       </section>
+    
+
+       {/*  <div>
+
+          <button onclick="changePermission()">Roles de usuario</button>
+          <li id="select" onclick="selectOne()" style="display: none;">Usuario de consulta</li>
+          <li id="add" onclick="addOne()" style="display: none;">Agregar usuario</li>
+          <li id="delete" onclick="deleteOne()" style="display: none;">Eliminar usuarios</li>
+          <li id="update" onclick="updateOne()" style="display: none;">Modificar usuarios</li>
+          <li id="login" onclick="login()" style="display: none;">Inicio de sesión de usuario</li>
+          
+        </div>
+     */}
+    
+    <Footer />
     </div>
   );
 }
