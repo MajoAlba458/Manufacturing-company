@@ -9,16 +9,35 @@
   }  
 
 .form-usuario {
-  padding: 80px;
+  padding-left: 100px;
+  padding-top: 30px;
   justify-content: center;
 }
 .inputs {
   margin-top: 5px;
 }
 .footer-usuario {
-  margin-top: 90px;
+  margin-top: 5px;
 }
-
+.text-center{text-align:center}
+.table-responsive
+{
+  padding-top: 10px;
+  min-height:.01%;
+  overflow-x:auto;
+  width:100%;
+  margin-bottom:15px;
+  overflow-y:hidden;
+  -ms-overflow-style:-ms-autohiding-scrollbar;
+  border:1px solid #ddd;
+}
+.table {
+  width:100%;
+  max-width:100%;
+  margin-bottom:20px;
+  background-color:#fff;
+  border-collapse:collapse;
+}
 select{
   width: 450px;
 }

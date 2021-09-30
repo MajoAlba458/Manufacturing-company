@@ -80,6 +80,59 @@ function Users() {
             />
           </div>
         </form>
+        <div class="table-responsive">
+            <table class="table table-hover text-center">
+									<thead>
+										<tr>
+											<th class="text-center">ID</th>
+											<th class="text-center">Nombre</th>
+											<th class="text-center">Apellidos</th>
+											<th class="text-center">Usuario</th>
+											<th class="text-center">Email</th>
+											<th class="text-center">Phone</th>
+											<th class="text-center">Rol</th>
+											<th class="text-center">Autorizacion</th>
+											<th class="text-center">Borrar</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Maria</td>
+											<td>Jadnat</td>
+											<td>MAJAXX</td>
+											<td>majoxx@gmail.com</td>
+											<td>1234</td>
+											<td>Admin</td>
+											<td>Pendiente</td>
+											<td>false</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Juan</td>
+											<td>Hernandez</td>
+											<td>JUHEXX</td>
+											<td>juhexx@gmail.com</td>
+											<td>1234</td>
+											<td>User</td>
+											<td>No autorizado</td>
+											<td>true</td>
+										</tr>
+                    <tr>
+											<td>3</td>
+											<td>Daniel</td>
+											<td>Ramirez</td>
+											<td>DARAXX</td>
+											<td>daraxx@gmail.com</td>
+											<td>1234</td>
+											<td>User</td>
+											<td>Autorizado</td>
+											<td>false</td>
+										</tr>
+									</tbody>
+				    </table>
+				</div>
+
         <div class="footer-usuario">
           <Footer />
         </div>
