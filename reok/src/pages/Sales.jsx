@@ -2,30 +2,49 @@
 function Sales() {
     return (
         <div className="Sales">
-            <form class="MiForma" name="Formulario">
-                <h4>Formulario Web: Venta Producto</h4>
-                <label for="">Id. Venta:</label>
-                <input type="number" required/><br/>
-                <label for="">Fecha y Hora Actual:</label>
-                <input type="datetime-local" required/><br/>
-                <label for="">Fecha Venta del Producto:</label>
-                <input type="date" required placeholder="dd/mm/aaaa"/><br/>
-                <label for="">Id. Cliente:</label>
-                <input type="number" required placeholder="# de identificacion"/><br/>
-                <label for="">Nombre Cliente</label>
-                <input type="text" required/><br/>
-                <label for="">Direccion Cliente</label>
-                <input type="text" required/><br/>
-                <label for="">Telefono Cliente</label>
-                <input type="text" required/><br/>
-                <label for="">Id. Producto</label>
-                <input type="number" required/><br/>
-                <label for="">Cantidad Total Producto</label>
-                <input type="number" required/><br/>
-                <label for="">Total Venta Producto</label>
-                <input type="number" required placeholder="$"/><br/>
-                <input type="submit" name="Enviar" value="Enviar"/>
-            </form>
+           <header ul class="navbar">
+        <h1 class="Titulo 1">Informacion de Ventas</h1> 
+    </header>
+    <main>
+        <label for = "numero de pedido">Numero de Pedido :</label>
+        <input type="number" name="numero de pedido"/>
+        <br/>
+        <label for="fecha de ingreso">Fecha de Ingreso</label>
+        <input type="date"/>
+        <br/>
+        <label for="id identificador">Id Vendedor</label>
+        <input type="number"/>
+        <br/>
+        <label for="Codigo de producto">Codigo de Producto</label>
+        <input type="number"/>
+        <br/>
+        <label for="Valor producto">Valor del Producto</label>
+        <input type="number"/>
+        <br/>
+        <label for="Descripcion del produto">Descripcion del Producto</label>
+        <button>Ir</button>
+        <br/>
+        <label for="Valor total venta">Valor Total de la Venta</label>
+        <button>Generar</button>
+        <input type="number"/>
+        <br/>
+        <label for="Fecha de entrega">Fecha de Entrega</label>
+        <input type="date"/>
+        <br/>
+        <label for="lugar de entrega">Forma de Entrega</label>
+        <button>Domicilio</button>
+        <button>Almacen</button>
+        <br/>
+        <label for="Forma de pago">Forma de Pago</label>
+        <br/>
+        <button>Credito</button>
+        <button>Contado</button>
+        <br/>
+        <label for="feha de pago">Fecha de Pago</label>
+        <input type="date"/>
+
+    </main>
+    <footer></footer> 
         </div>
     )
 }

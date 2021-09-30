@@ -24,7 +24,7 @@ const RightContainerLoginForm = () => {
           <div class="input-box__input">
             <i class="fas fa-envelope"></i>
             <label for="email">Email</label>
-            <input type="mailto" class="mailto" name="email" required="true" />
+            <input type="email" class="email" name="email" required="true" />
           </div>
         </div>
         <input
