@@ -1,13 +1,28 @@
 .intro-section {
+    background: linear-gradient(to right, #00f28e, #00B4D8);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     width: 100%;
-    height: 100rem;
-    background-color: #caf0f8;
-    background-image: url("C:\Users\JUANHG\Documents\DevAppFat\Manufacturing-company\reok\src\media\images\showcase-01.png");
-  }
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }  
+
 .form-usuario {
-  padding: 10px;
+  padding: 80px;
   justify-content: center;
 }
+.inputs {
+  margin-top: 5px;
+}
+.footer-usuario {
+  margin-top: 90px;
+}
+
+select{
+  width: 450px;
+}
+
 h2 {
     font-family: var(--bs-body-font-family);
     color: black;

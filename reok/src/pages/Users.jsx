@@ -1,13 +1,11 @@
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
-
+import "assets/css/usuarios.css"
 function Users() {
   return (
     <div className="Users">
-      <Navbar/>
-      
-      <section id="section" class="intro-section" >
-        <h2>Gestion de Usuario</h2>
+      <Navbar title={'Gestion de Usuario'}/>
+        <section id="section" class="intro-section" >
         <form action="#" method="post" name="gestion_usuario" class="form-usuario">
           <label for="us_nombre">Nombre</label>
           <div class="inputs">
@@ -16,7 +14,7 @@ function Users() {
               name="us_nombre"
               required="true"
               placeholder="Nombre/apellidos"
-              size="80"
+              size="50"
               type="text"
               value=""
             />
@@ -28,7 +26,7 @@ function Users() {
               name="usuario"
               required="true"
               placeholder="Usuario"
-              size="80"
+              size="50"
               type="text"
               value=""
             />
@@ -40,7 +38,7 @@ function Users() {
               name="passwd"
               required="true"
               placeholder="Password"
-              size="80"
+              size="50"
               type="password"
               value=""
             />
@@ -52,14 +50,15 @@ function Users() {
               name="confirm"
               required="true"
               placeholder="Confirmar Password"
-              size="80"
+              size="50"
               type="password"
               value=""
             />
           </div>
           <label for="rol">Rol del usuario</label>
           <div class="inputs">
-            <select name="rol" id="rol">
+            <select name="rol" id="rol" >
+              <option value="#"> </option>
               <option value="admin_sist">Administrador de sistema</option>
               <option value="admin_ventas">Administrador de ventas</option>
               <option value="vendedor">Vendedor</option>
@@ -69,7 +68,6 @@ function Users() {
           </div>
           <div class="inputs">
             <button id="reset" name="reset" type="reset">
-              {" "}
               Restaurar
             </button>
           </div>
@@ -82,22 +80,12 @@ function Users() {
             />
           </div>
         </form>
-      </section>
-    
-
-       {/*  <div>
-
-          <button onclick="changePermission()">Roles de usuario</button>
-          <li id="select" onclick="selectOne()" style="display: none;">Usuario de consulta</li>
-          <li id="add" onclick="addOne()" style="display: none;">Agregar usuario</li>
-          <li id="delete" onclick="deleteOne()" style="display: none;">Eliminar usuarios</li>
-          <li id="update" onclick="updateOne()" style="display: none;">Modificar usuarios</li>
-          <li id="login" onclick="login()" style="display: none;">Inicio de sesión de usuario</li>
-          
+        <div class="footer-usuario">
+          <Footer />
         </div>
-     */}
-    
-    <Footer />
+        
+      </section>
+        
     </div>
   );
 }
