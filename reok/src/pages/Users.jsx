@@ -132,11 +132,6 @@ function Users() {
 									</tbody>
 				    </table>
 				</div>
-
-        <div class="footer-usuario">
-          <Footer />
-        </div>
-        
       </section>
         
     </div>

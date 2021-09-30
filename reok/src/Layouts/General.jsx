@@ -1,14 +1,13 @@
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
 
-const Layout = ({ children }) => {
+const General = ({ children }) => {
   return (
-    <div className="Layout">
-      <Navbar />
+    <div className="General">
       <main>{children}</main>
       <Footer />
     </div>
   );
 };
 
-export default Layout;
+export default General;
