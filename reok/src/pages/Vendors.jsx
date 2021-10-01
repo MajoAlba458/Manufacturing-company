@@ -1,8 +1,13 @@
-
+import Navbar from "components/Navbar";
+import Footer from "components/Footer";
+import "assets/css/styleVendedores.css";
 function Vendors() {
     return (
         <div className="Vendors">
             <Navbar title={'Gestion de Usuario'}/>
+            <title>Document</title>
+            <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></link>
+            <link rel="stylesheet" href="assets/css/styleVendedores.css"></link>
             <div class="main-content"> 
         <header>
             <h1>
