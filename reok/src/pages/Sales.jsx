@@ -3,9 +3,9 @@ import Footer from "components/Footer";
 function Sales() {
     return (
         <div className="Sales">
-            <Navbar/>
+            <Navbar title = {"Informacion de Ventas"}/>
            <header ul class="navbar">
-        <h1 class="Titulo 1">Informacion de Ventas</h1> 
+        <h1 class="Titulo 1"></h1> 
     </header>
     <main>
         <label for = "numero de pedido">Numero de Pedido :</label>
