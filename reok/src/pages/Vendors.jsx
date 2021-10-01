@@ -4,12 +4,11 @@ import "assets/css/styleVendedores.css";
 function Vendors() {
     return (
         <div className="Vendors">
-            <Navbar title={'Gestion de Usuario'}/>
-            <title>Document</title>
-            <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></link>
-            <link rel="stylesheet" href="assets/css/styleVendedores.css"></link>
+            <Navbar title={'Gestion de Vendedores'}/>
             <div class="main-content"> 
-        <header>
+
+            {/* Se comento el header de esta interfaz ya que se esta utilizando la barra de navegacion reutilizable */}
+        {/* <header>
             <h1>
                  <label for="nav-toggle">
                      <span class="las la-bars"></span>
@@ -27,7 +26,7 @@ function Vendors() {
              </div>
                  <h4>Daniel Felipe</h4>
                  <small>Vendedor</small>
-         </header>
+         </header> */}
 
 
 

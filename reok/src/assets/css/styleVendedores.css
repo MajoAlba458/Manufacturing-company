@@ -8,7 +8,7 @@
 
 }
 
-*{
+/* *{
 
     padding: 0;
     margin: 0;
@@ -16,9 +16,11 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
-}
+} */
 
-.sidebar{
+
+/* Se comento todo lo que seria la barra de navegacion y sidebar ya que ocasionaba problemas con la barra de navegacion ya hecha */
+/* .sidebar{
 
     width: 345px;
     position: fixed;
@@ -106,11 +108,12 @@
    width: calc(100%-70px);
    left:70px;
 
-}
-.main-content{
+} */
+/* Esta parte se comento ya que generaba un descuandre en la interfaz, causaba que todo se corriera y quedara fuera de la pagina */
+/* .main-content{
     transition:margin-left 300ms;
     margin-left: 345px;
-}
+} */
 
 
 header{
@@ -178,13 +181,15 @@ header label span{
     display: inline-block;
     color: var(--text-grey);
 }
-main{
+
+/* Se comento el main ya que encerraba en una caja al contenido de todas las interfazes */
+/* main{
 
     margin-top: 85px;
     padding:2rem 1.5rem;
     background: #f1f0f9;
     min-height: calc(100vh - 90px);
-}
+} */
 
 .cards{
     display: grid;

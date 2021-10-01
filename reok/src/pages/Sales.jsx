@@ -3,7 +3,7 @@ import Footer from "components/Footer";
 function Sales() {
     return (
         <div className="Sales">
-            <Navbar>
+            <Navbar/>
            <header ul class="navbar">
         <h1 class="Titulo 1">Informacion de Ventas</h1> 
     </header>
