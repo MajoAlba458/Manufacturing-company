@@ -6,57 +6,59 @@ function Users() {
     <div className="Users">
       <Navbar title={'Gestion de Usuario'}/>
         <section id="section" class="intro-section" >
+        <h3>Usuarios del sistema</h3>  
         <form action="#" method="post" name="gestion_usuario" class="form-usuario">
-          <label for="us_nombre">Nombre</label>
+          <div class="contenedor-inputs"> 
           <div class="inputs">
+            <label for="us_nombre">Nombre</label>
             <input
               id="us_nombre"
               name="us_nombre"
               required="true"
               placeholder="Nombre/apellidos"
-              size="50"
               type="text"
               value=""
             />
           </div>
-          <label for="usuario">Usuario</label>
+          
           <div class="inputs">
+            <label for="usuario">Usuario</label>
             <input
               id="usuario"
               name="usuario"
               required="true"
               placeholder="Usuario"
-              size="50"
               type="text"
               value=""
             />
           </div>
-          <label for="credenciales">Credenciales</label>
+          
           <div class="inputs">
+            <label for="credenciales">Credenciales</label>
             <input
               id="passwd"
               name="passwd"
               required="true"
               placeholder="Password"
-              size="50"
               type="password"
               value=""
             />
           </div>
-          <label for="confirm">Confirmar Credenciales</label>
+          
           <div class="inputs">
+            <label for="confirm">Confirmar Credenciales</label>
             <input
               id="confirm"
               name="confirm"
               required="true"
               placeholder="Confirmar Password"
-              size="50"
               type="password"
               value=""
             />
           </div>
-          <label for="rol">Rol del usuario</label>
+          
           <div class="inputs">
+            <label for="rol">Rol del usuario</label>
             <select name="rol" id="rol" >
               <option value="#"> </option>
               <option value="admin_sist">Administrador de sistema</option>
@@ -66,18 +68,18 @@ function Users() {
               <option value="ejecutivo">Ejecutivo</option>
             </select>
           </div>
-          <div class="inputs">
-            <button id="reset" name="reset" type="reset">
-              Restaurar
-            </button>
-          </div>
-          <div class="inputs">
+          <div class="inputs contenedor-botones">
             <input
-              id="registrar_usuario"
+              id="registrar_usuario" class="botton"
               name="registrar_usuario"
               type="submit"
               value="Registrar Usuario"
             />
+            <button id="reset" class="botton" name="reset" type="reset">
+              Restaurar
+            </button>
+          </div>
+          
           </div>
         </form>
         <div class="table-responsive">
