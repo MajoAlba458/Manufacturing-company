@@ -102,6 +102,28 @@ button:hover {
   margin-left: 1rem;
 }
 
+.otherLinksToLogin {
+  display: flex;
+  justify-content: space-between;
+}
+.otherLinksToLogin div {
+  width: 6rem;
+  height: 2.5rem;
+  background: #0d6efd;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+  .otherLinksToLogin div {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
 #forgot-container {
   display: none;
 }
