@@ -210,7 +210,6 @@ function Users() {
 				    </table>
 				</div>
       </section>
-      <Footer />  
     </div>
   );
 }
