@@ -6,7 +6,7 @@ function Users() {
     <div className="Users">
       <Navbar title={'Gestion de Usuario'}/>
         <section id="section" class="intro-section" >
-        <h3>Usuarios del sistema</h3>  
+        <h3>Registrar/Actualizar Usuario </h3>
         <form action="#" method="post" name="gestion_usuario" class="form-usuario">
           <div class="contenedor-inputs"> 
           <div class="inputs">
@@ -15,7 +15,18 @@ function Users() {
               id="us_nombre"
               name="us_nombre"
               required="true"
-              placeholder="Nombre/apellidos"
+              placeholder="Nombre"
+              type="text"
+              value=""
+            />
+          </div>
+          <div class="inputs">
+            <label for="us_apellido">Apellido</label>
+            <input
+              id="us_apellido"
+              name="us_apellido"
+              required="true"
+              placeholder="Apellido"
               type="text"
               value=""
             />
@@ -29,6 +40,17 @@ function Users() {
               required="true"
               placeholder="Usuario"
               type="text"
+              value=""
+            />
+          </div>
+          <div class="inputs">
+            <label for="us_telefono">Telefono</label>
+            <input
+              id="us_telefono"
+              name="us_telefono"
+              required="true"
+              placeholder="Telefono"
+              type="number"
               value=""
             />
           </div>
@@ -73,7 +95,7 @@ function Users() {
               id="registrar_usuario" class="botton"
               name="registrar_usuario"
               type="submit"
-              value="Registrar Usuario"
+              value="Registrar/Actualizar"
             />
             <button id="reset" class="botton" name="reset" type="reset">
               Restaurar
@@ -83,6 +105,7 @@ function Users() {
           </div>
         </form>
         <div class="table-responsive">
+          <h3>Maestra de usuarios</h3> 
             <table class="table table-hover text-center">
 									<thead>
 										<tr>
@@ -91,10 +114,10 @@ function Users() {
 											<th class="text-center">Apellidos</th>
 											<th class="text-center">Usuario</th>
 											<th class="text-center">Email</th>
-											<th class="text-center">Phone</th>
+											<th class="text-center">Telefono</th>
 											<th class="text-center">Rol</th>
 											<th class="text-center">Autorizacion</th>
-											<th class="text-center">Borrar</th>
+											<th class="text-center">Baja</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -106,19 +129,31 @@ function Users() {
 											<td>majoxx@gmail.com</td>
 											<td>1234</td>
 											<td>Admin</td>
-											<td>Pendiente</td>
-											<td>false</td>
+											<td><select name="us-autorizar" id="us-autorizar" >
+                        <option value="#"> </option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="autorizado">Aprobado</option>
+                        <option value="no_autorizado">Negado</option>
+                      </select></td>
+                      <td> <label >.</label><input name="us-borrar" id="us-borrar" type="checkbox"   /></td>
+                                            
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>Juan</td>
+                      <td>Juan</td>
 											<td>Hernandez</td>
 											<td>JUHEXX</td>
 											<td>juhexx@gmail.com</td>
 											<td>1234</td>
 											<td>User</td>
-											<td>No autorizado</td>
-											<td>true</td>
+											<td><select name="us-autorizar" id="us-autorizar" >
+                        <option value="#"> </option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="autorizado">Aprobado</option>
+                        <option value="no_autorizado">Negado</option>
+                      </select></td>
+                      <td> <label >.</label><input name="us-borrar" id="us-borrar" type="checkbox"   /></td>
+                                            
 										</tr>
                     <tr>
 											<td>3</td>
@@ -127,15 +162,55 @@ function Users() {
 											<td>DARAXX</td>
 											<td>daraxx@gmail.com</td>
 											<td>1234</td>
+											<td>Vendedor</td>
+											<td><select name="us-autorizar" id="us-autorizar" >
+                        <option value="#"> </option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="autorizado">Aprobado</option>
+                        <option value="no_autorizado">Negado</option>
+                      </select></td>
+                      <td> <label >.</label><input name="us-borrar" id="us-borrar" type="checkbox"   /></td>
+                                            
+										</tr>
+                    <tr>
+											<td>4</td>
+											<td>Jofay</td>
+											<td>Segura</td>
+											<td>JOSEGXX</td>
+											<td>josegxx@gmail.com</td>
+											<td>1234</td>
 											<td>User</td>
-											<td>Autorizado</td>
-											<td>false</td>
+											<td><select name="us-autorizar" id="us-autorizar" >
+                        <option value="#"> </option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="autorizado">Aprobado</option>
+                        <option value="no_autorizado">Negado</option>
+                      </select></td>
+                      <td> <label >.</label><input name="us-borrar" id="us-borrar" type="checkbox"   /></td>
+                                            
+										</tr>
+                    <tr>
+											<td>5</td>
+											<td>Dayana</td>
+											<td>Mantilla</td>
+											<td>DAMAXX</td>
+											<td>dama@gmail.com</td>
+											<td>1234</td>
+											<td>Vendedor</td>
+											<td><select name="us-autorizar" id="us-autorizar" >
+                        <option value="#"> </option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="autorizado">Aprobado</option>
+                        <option value="no_autorizado">Negado</option>
+                      </select></td>
+                      <td> <label >.</label><input name="us-borrar" id="us-borrar" type="checkbox"   /></td>
+                                            
 										</tr>
 									</tbody>
 				    </table>
 				</div>
       </section>
-        
+      <Footer />  
     </div>
   );
 }
