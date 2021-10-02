@@ -1,52 +1,89 @@
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
+
 function Sales() {
     return (
         <div className="Sales">
             <Navbar title = {"Informacion de Ventas"}/>
-           <header ul class="navbar">
-        <h1 class="Titulo 1"></h1> 
-    </header>
-    <main>
-        <label for = "numero de pedido">Numero de Pedido :</label>
-        <input type="number" name="numero de pedido"/>
-        <br/>
-        <label for="fecha de ingreso">Fecha de Ingreso</label>
-        <input type="date"/>
-        <br/>
-        <label for="id identificador">Id Vendedor</label>
-        <input type="number"/>
-        <br/>
-        <label for="Codigo de producto">Codigo de Producto</label>
-        <input type="number"/>
-        <br/>
-        <label for="Valor producto">Valor del Producto</label>
-        <input type="number"/>
-        <br/>
-        <label for="Descripcion del produto">Descripcion del Producto</label>
-        <button>Ir</button>
-        <br/>
-        <label for="Valor total venta">Valor Total de la Venta</label>
-        <button>Generar</button>
-        <input type="number"/>
-        <br/>
-        <label for="Fecha de entrega">Fecha de Entrega</label>
-        <input type="date"/>
-        <br/>
-        <label for="lugar de entrega">Forma de Entrega</label>
-        <button>Domicilio</button>
-        <button>Almacen</button>
-        <br/>
-        <label for="Forma de pago">Forma de Pago</label>
-        <br/>
-        <button>Credito</button>
-        <button>Contado</button>
-        <br/>
-        <label for="feha de pago">Fecha de Pago</label>
-        <input type="date"/>
+            <Section id = "section" class = "intro-section">
+            <label for = "numero de pedido">Numero de Pedido :</label>
+            <br/>
+            <input type="number" name="numero de pedido" required = "true" placeholder = "numero de pedido" size = "50" value = ""/>
+            <br/>
+            <label for="fecha de pedido">Fecha de Pedido</label>
+            <br/>
+            <input type="date"name="fecha de pedido" required = "true" placeholder = "fecha de pedido" size = "50" value = ""/>
+            <br/>
+            <label for="nombre cliente">Nombre Cliente </label>
+            <br/>
+            <input type="text"name="nombre cliente" required = "true" placeholder = "Nombre Cliente" size = "50" value = ""/>
+            <br/>
+            <label for="Id cliente">Identificacion Cliente</label>
+            <br/>
+            <input type="number"name="Id cliente" required = "true" placeholder = "Identificacion Cliente" size = "50" value = ""/>
+            <br/>
+            <label for="vendedor">Identificacion Vendedor</label>
+            <br/>
+            <input type="number"name="Id vendedor" required = "true" placeholder = "Id Vendedor" size = "50" value = ""/>
+            <br/>
+            <label for="fecha de despacho">Fecha de Despacho</label>
+            <br/>
+            <input type="date"name="fecha de despacho" required = "true" placeholder = "fecha de despacho" size = "50" value = ""/>
+            <br/>
+            <label for="forma de pago">Forma de Pago</label>
+            <br/>
+            
+            <button>Contado</button>
+            <button>Credito</button>
 
-    </main>
-    <footer></footer> 
+           
+       
+            <br/>
+
+        </Section>
+<section name = "table">
+      
+                <table class="default">
+                    <thead>
+                        <tr>
+                            <th> Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Valor Unitario</th>
+                            <th> Cantidad</th>
+                            <th>Valor Total</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                         <td>11111</td>
+                         <td> Cuaderno</td>
+                         <td>10000</td>
+                         <td>1</td>
+                         <td>10000</td>
+                        </tr>
+                        <tr>
+                        <td>22222</td>
+                        <td> Agenda</td>
+                        <td>20000</td>
+                        <td>1</td>
+                        <td>20000</td>
+                        </tr>
+                        <tr>
+                        <td>33333</td>
+                        <td> MiniCuaderno</td>
+                        <td>5000</td>
+                        <td>2</td>
+                        <td>10000</td>
+                        </tr> 
+                     </tbody>
+                </table>
+            </section>
+         
+
+   
+
+<footer></footer> 
+    </div> 
         </div>
     )
 }
