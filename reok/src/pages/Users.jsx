@@ -8,100 +8,100 @@ function Users() {
         <section id="section" class="intro-section" >
         <h3>Registrar/Actualizar Usuario </h3>
         <form action="#" method="post" name="gestion_usuario" class="form-usuario">
-          <div class="contenedor-inputs"> 
-          <div class="inputs">
-            <label for="us_nombre">Nombre</label>
-            <input
-              id="us_nombre"
-              name="us_nombre"
-              required="true"
-              placeholder="Nombre"
-              type="text"
-              value=""
-            />
-          </div>
-          <div class="inputs">
-            <label for="us_apellido">Apellido</label>
-            <input
-              id="us_apellido"
-              name="us_apellido"
-              required="true"
-              placeholder="Apellido"
-              type="text"
-              value=""
-            />
-          </div>
-          
-          <div class="inputs">
-            <label for="usuario">Usuario</label>
-            <input
-              id="usuario"
-              name="usuario"
-              required="true"
-              placeholder="Usuario"
-              type="text"
-              value=""
-            />
-          </div>
-          <div class="inputs">
-            <label for="us_telefono">Telefono</label>
-            <input
-              id="us_telefono"
-              name="us_telefono"
-              required="true"
-              placeholder="Telefono"
-              type="number"
-              value=""
-            />
-          </div>
-          
-          <div class="inputs">
-            <label for="credenciales">Credenciales</label>
-            <input
-              id="passwd"
-              name="passwd"
-              required="true"
-              placeholder="Password"
-              type="password"
-              value=""
-            />
-          </div>
-          
-          <div class="inputs">
-            <label for="confirm">Confirmar Credenciales</label>
-            <input
-              id="confirm"
-              name="confirm"
-              required="true"
-              placeholder="Confirmar Password"
-              type="password"
-              value=""
-            />
-          </div>
-          
-          <div class="inputs">
-            <label for="rol">Rol del usuario</label>
-            <select name="rol" id="rol" >
-              <option value="#"> </option>
-              <option value="admin_sist">Administrador de sistema</option>
-              <option value="admin_ventas">Administrador de ventas</option>
-              <option value="vendedor">Vendedor</option>
-              <option value="operario">Operario</option>
-              <option value="ejecutivo">Ejecutivo</option>
-            </select>
-          </div>
-          <div class="inputs contenedor-botones">
-            <input
-              id="registrar_usuario" class="botton"
-              name="registrar_usuario"
-              type="submit"
-              value="Registrar/Actualizar"
-            />
-            <button id="reset" class="botton" name="reset" type="reset">
-              Restaurar
-            </button>
-          </div>
-          
+          <div class="contenedor-inputs">
+            <div class="inputs">
+              <label for="us_nombre">Nombre</label>
+              <input
+                id="us_nombre"
+                name="us_nombre"
+                required="true"
+                placeholder="Nombre"
+                type="text"
+                value=""
+              />
+            </div>
+            <div class="inputs">
+              <label for="us_apellido">Apellido</label>
+              <input
+                id="us_apellido"
+                name="us_apellido"
+                required="true"
+                placeholder="Apellido"
+                type="text"
+                value=""
+              />
+            </div>
+
+            <div class="inputs">
+              <label for="usuario">Usuario</label>
+              <input
+                id="usuario"
+                name="usuario"
+                required="true"
+                placeholder="Usuario"
+                type="text"
+                value=""
+              />
+            </div>
+            <div class="inputs">
+              <label for="us_telefono">Telefono</label>
+              <input
+                id="us_telefono"
+                name="us_telefono"
+                required="true"
+                placeholder="Telefono"
+                type="number"
+                value=""
+              />
+            </div>
+
+            <div class="inputs">
+              <label for="credenciales">Credenciales</label>
+              <input
+                id="passwd"
+                name="passwd"
+                required="true"
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+            </div>
+
+            <div class="inputs">
+              <label for="confirm">Confirmar Credenciales</label>
+              <input
+                id="confirm"
+                name="confirm"
+                required="true"
+                placeholder="Confirmar Password"
+                type="password"
+                value=""
+              />
+            </div>
+
+            <div class="inputs">
+              <label for="rol">Rol del usuario</label>
+              <select name="rol" id="rol" >
+                <option value="#"> </option>
+                <option value="admin_sist">Administrador de sistema</option>
+                <option value="admin_ventas">Administrador de ventas</option>
+                <option value="vendedor">Vendedor</option>
+                <option value="operario">Operario</option>
+                <option value="ejecutivo">Ejecutivo</option>
+              </select>
+            </div>
+            <div class="inputs contenedor-botones">
+              <input
+                id="registrar_usuario" class="botton"
+                name="registrar_usuario"
+                type="submit"
+                value="Registrar/Actualizar"
+              />
+              <button id="reset" class="botton" name="reset" type="reset">
+                Restaurar
+              </button>
+            </div>
+
           </div>
         </form>
         <div class="table-responsive">
@@ -209,8 +209,9 @@ function Users() {
 									</tbody>
 				    </table>
 				</div>
+        <Footer />
       </section>
-      <Footer />  
+        
     </div>
   );
 }
