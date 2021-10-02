@@ -76,7 +76,6 @@ function Sales() {
             
                 <Footer />
             </section>
-       
               
     </div>
   );
