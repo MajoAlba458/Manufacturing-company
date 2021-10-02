@@ -35,7 +35,7 @@
 
     height:90px;
     padding: 1rem 0rem 1rem 2rem;
-    color: #fff;
+    color: rgb(94, 161, 158);
 }
 .sidebar-brand span{
     display: inline-block;
@@ -178,7 +178,7 @@ header label span{
 
 .user-wrapper small{
 
-    display: inline-block;
+  /* display: inline-block;*/
     color: var(--text-grey);
 }
 
@@ -195,7 +195,7 @@ header label span{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    margin-top: 1rem;
+    margin-top: .5rem
 }
 .card-single{
 
@@ -226,17 +226,19 @@ header label span{
     margin-top: 3.5rem;
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 65% auto;
+  grid-template-columns: 65% auto;
 }
 
 .card{
 
     background: #fff;
     border-radius:5px;
+  
 }
 .card-header{
 
     padding: 1rem;
+   
 }
    
 .card-header{
